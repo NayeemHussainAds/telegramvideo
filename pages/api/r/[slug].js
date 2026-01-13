@@ -5,7 +5,7 @@ export default function handler(req, res) {
   // Human redirect map
   const redirectMap = {
     tiger: "https://t.me/yourchannel/123",
-    marry: "https://screeninsiderhub.blogspot.com/2025/..."
+    mod: "https://www.youtube.com/"
   };
 
   // যদি match না করে default redirect
