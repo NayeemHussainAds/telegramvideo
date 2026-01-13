@@ -44,7 +44,7 @@ export default function handler(req, res) {
   const imgParam = req.query.img || "default";
 
   // 📌 ডিফল্ট ইমেজ URL
-  const defaultImage = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQlAwNOpfJqPeV4sC3RoqdIXah6q4PFT8zFrkq_VAXcnhuz2O5pntQBZA_RatZ4OAH87I4d-kSpvHbDt7wlnnWRh16HS6hcb2WAvUm7KwiUDXI2U-5U7Dig9DW7PiRbOsNmwmuJp3p6nK9fWuieYjAV7CFDT-BkdzTazNPszL1BOpU9kfjyEQn7mBIND8/w640-h360/PF7wbYyurg0-HD.jpg";
+  const defaultImage = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh-qRrfGoK_d4LBL1skUnfADLKMye3Er0Lp5KYVw7QURwiZU65SuQn6KmXA4TstyhS-eC2-BVe_NbHZd8a5rEf7PWJWAT9PSUKzeupD0qpv-aNJ9ja2WWCeS8tooi0Ut3BbjYTKYWQcCZqb0GguGsHmHoYJEFM9vly_jU8aNzFgcLM59gB2S486zVSpuZ7X/w400-h225/edited_thumbnail%20(1).png";
 
   // 🏷️ imageMap থেকে imgParam অনুযায়ী image URL নিন, না থাকলে default image দিবেন
   const imageURL = (imageMap[imgParam] || defaultImage) + "?v=1"; // 🛡️ ক্যাশ বাইপাসের জন্য ?v=1 যোগ করা হয়েছে
