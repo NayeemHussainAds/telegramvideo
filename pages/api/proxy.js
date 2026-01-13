@@ -29,7 +29,7 @@ export default function handler(req, res) {
     tiger: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4vyWL6EJrmdmh5IOmt7cGz-GpxdLFgF5qHJTMzRFF0Rma1014mNEKrY8xdgkl952JsVR8HHdYHrlS5lqyFOp79YYzz4EGXCBO7C1Ah1TjMXvu1_4P2d_Zgw5UhBk-fNBmCS32gT4QlbGAxh308MgcUbevLfYoeqdlJ8XnFnFHSs2QjDAiWodQLAMa4E0/w640-h360/Tiger%203%20(1).jpg",
     fukrey: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjV8h2jPZtX_-ShGIm_cnS-Xsapzsb-fBASOYs-x0kcV8lfI_V4sDnnyK-K5flOh3-X-iQrjoZgIMCLYNb7193LGxkqz-77vPYgIGjzfRoCkgtiT8LLvtExoIjZgbeZpMHLVc8kTYKCq1KehWpkYZ5M-SjEUepPLal5L94AsJSXeFpN46nt8GEEkDgzam4/w640-h360/Tiger%20Nageswara%20Rao%20(2).jpg",
     jawan: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNAuW-5150Z6lGflLTsxdC_m5ZGN0-thd_JUYkesGqphqgnc5usYMF792UF8VKfekZSPb8PeUvsQ5n9H2lsLHkZMYJNudBXSZeD__PPpVYPt08Fhsp_t4EV25HtGFhmzBSCMEl0nrJ7QslRNS6oY_Waa0hIbUgrq-m7Ukkhyphenhyphen3gNbgfdfZoRAajvrVU2pPZ/s16000/video-frame-image.png",
-    name: "",
+    dir: "https://t.co/oST3ruUh2B",
     name: "",
     name: "",
     name: "",
