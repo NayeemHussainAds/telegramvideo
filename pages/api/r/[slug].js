@@ -1,10 +1,16 @@
 export default function handler(req, res) {
-  // slug example: tiger-9xA3
-  const slug = req.query.slug || "";
+  const slug = req.query.slug || ""; // Safety
+  const label = slug.split("-")[0]; // tiger-ABC123 → "tiger"
 
-  // 🔗 Final redirect (Human)
-  res.writeHead(302, {
-    Location: "https://screeninsiderhub.blogspot.com"
-  });
+  // Human redirect map
+  const redirectMap = {
+    tiger: "https://t.me/yourchannel/123",
+    marry: "https://screeninsiderhub.blogspot.com/2025/..."
+  };
+
+  // যদি match না করে default redirect
+  const redirectURL = redirectMap[label] || "https://screeninsiderhub.blogspot.com";
+
+  res.writeHead(302, { Location: redirectURL });
   res.end();
 }
