@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/blogger',
-        destination: 'https://screeninsiderhub.blogspot.com',
+        destination: 'https://t.co/oST3ruUh2B',
         permanent: true,
       },
     ]
